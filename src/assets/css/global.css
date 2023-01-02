@@ -1,0 +1,45 @@
+:root {
+  --primary: #ffbf0e;
+  --hov-primary: #f40000;
+  --soft-primary: rgba(255, 191, 14, 0.15);
+  --font-primary: Roboto_regular;
+}
+
+@font-face {
+  font-family: 'Roboto_light';
+  src: url('../fonts/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'Roboto_regular';
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto_bold';
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto_medium';
+  src: url('../fonts/Roboto-Medium.ttf');
+}
+
+html,
+body {
+  /* font-family: var(--font-primary) 'Helvetica Neue', 'Noto Sans',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #929297 !important;
+  /* color: #1b1b28; */
+  background-color: #f3f3f3;
+  font-size: 13px;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  width: 100%;
+  /* height: auto; */
+}

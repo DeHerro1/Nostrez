@@ -1,0 +1,23 @@
+.input-group > .form-control {
+  width: 500px !important;
+  height: 42px;
+}
+
+.bg-badge {
+  background-color: var(--primary);
+  color: #fff;
+  height: 25px;
+  width: 25px;
+
+  font-size: 1rem;
+}
+.carousel {
+  position: relative;
+  height: 300px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  /* padding: 6.6px 16px; */
+}
